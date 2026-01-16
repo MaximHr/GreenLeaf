@@ -10,8 +10,8 @@ const Navbar = ({bc}) => {
         <h2>GreenLeaf</h2>
       </Link>
       <div className="nav-links">
-        <Link to='/how-it-works'>How It Works</Link>
-        <Link to='/signin' id="signin-link">Sign In</Link>
+        <Link to='/how-it-works' id="signin-link">How It Works</Link>
+        <Link to='/signin' >Sign In</Link>
         <Link to="/signup" className="btn">Sign Up</Link>
       </div>
     </div>

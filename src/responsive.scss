@@ -127,21 +127,21 @@
   .hero .alert:nth-of-type(1) {
     top: -10px;
   }
-	.sections-container .section:nth-of-type(2) {
-		padding: 2rem 1rem!important;
-		gap: 2rem;
-	}
-	.carbon-projects {
-		margin: 3rem 2rem;
-	}
+  .sections-container .section:nth-of-type(2) {
+    padding: 2rem 1rem !important;
+    gap: 2rem;
+  }
+  .carbon-projects {
+    margin: 3rem 2rem;
+  }
   .features .alert {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     padding: 0.5rem 1rem;
     box-shadow: 0px 5px 10px rgb(123, 123, 123);
   }
-	.hero .alert {
-		font-size: 0.9rem;
-	}
+  .hero .alert {
+    font-size: 0.9rem;
+  }
   .hero .green {
     position: relative;
     transform: translate(-0.5rem, -3rem);
@@ -152,24 +152,34 @@
   .features {
     margin-top: 0;
   }
+  .levels {
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 480px) {
-	.debit-card {
-		transform: scale(0.8);
-	}
-	.features .alert {
-		font-size: 0.8rem;
-	}
-	.features .alert-img {
-		display: none;
-	}
-	.debitcard-container {
-		gap: 0rem;
-	}
-	.features .alert svg {
-		display: none;
-	}
+  .signup .wrapper {
+    transform: scale(0.9);
+  }
+  img.carboncapture {
+    width: 100%;
+    height: auto;
+  }
+  .debit-card {
+    transform: scale(0.8);
+  }
+  .features .alert {
+    font-size: 0.75rem;
+  }
+  .features .alert-img {
+    display: none;
+  }
+  .debitcard-container {
+    gap: 0rem;
+  }
+  .features .alert svg {
+    display: none;
+  }
   input,
   textarea {
     width: 100%;
@@ -196,9 +206,9 @@
   #section3 {
     margin-top: 0;
   }
-	.sections-container {
-		margin: 2rem 2rem;
-	}
+  .sections-container {
+    margin: 2rem 2rem;
+  }
   .join h1,
   .join h2 {
     padding: 0 5rem;
@@ -213,7 +223,7 @@
   .carbon-projects h2:last-of-type {
     padding-top: 0;
   }
-  .btn.green {
+  .join .btn.green {
     margin-top: 0;
     margin-bottom: 5rem !important;
   }
@@ -284,4 +294,26 @@
   .Navbar {
     padding: 2rem 1rem;
   }
+
+  .movement p {
+    width: 100% !important;
+    text-align: center;
+  }
+	.movement .btn {
+		align-self: center;
+	}
+	.movement {
+		margin-top: 0 !important;
+		margin-bottom: 4rem !important;
+	}
+	.work h1.title {
+		font-size: 2.25rem;
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		padding-bottom: 4rem;
+	}
+	.section-inf {
+		padding: 0 !important;
+	}
 }
